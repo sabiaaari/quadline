@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    height: 100vh;
+    overflow: scroll;
+    background: linear-gradient(120deg, #133E87, #608BC1); 
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.navbar-custom {
+    background-color: #3880be; 
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #ffffff; 
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-custom .nav-link:hover {
+    color: #cce7ff; 
+}
+
+.nav-link {
+    font-weight: bold; 
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.profil-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-profil{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-profil img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-profil p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center
+    color #003161;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.kolom{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.kolom {
+    animation: slideInLeft 3s ease forwards;
+    opacity: 0;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.kartu-profil {
+    animation: slideInLeft 3s ease forwards;
+    opacity: 0;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
